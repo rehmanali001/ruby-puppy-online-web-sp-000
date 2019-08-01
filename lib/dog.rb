@@ -15,7 +15,7 @@ class Dog
     @@all.clear
   end
   def self.print_all
-    @@all.map do animal
+    @@all.map do |animal|
       puts animal
   end
   end
