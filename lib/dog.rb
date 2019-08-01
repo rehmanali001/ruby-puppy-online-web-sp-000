@@ -15,7 +15,7 @@ class Dog
     @@all.clear
   end
   def self.print_all
-    @@all.each do 
+    @@all.map do animal
       puts animal
   end
   end
