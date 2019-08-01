@@ -17,5 +17,8 @@ class Dog
     @@all.each do |animal|
       puts animal
   end
+end
+  def save
+    
   end
 end 
